@@ -1,0 +1,2 @@
+sys_name,sys_processor,sys_phy_cores_count,sys_tot_cores_count,sys_cpufreq_mhz,sys_phy_mem_bytes,sys_swap_mem_bytes,file_type,CPU_GPU,model_name,batch_size,epochs,learning_rate,FP16,epochs_times,epochs_times_one,epochs_times_avg,test_accuracy,fit_time
+Linux,x86_64,4,4,2304.0,4112850944,2147479552,1h,cpu,vgg16,32,2,0.001,0,37.45;42.1,37.45,39.775000000000006,0.26,79.74

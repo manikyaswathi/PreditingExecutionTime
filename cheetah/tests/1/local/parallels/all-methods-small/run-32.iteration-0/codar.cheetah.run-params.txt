@@ -1,0 +1,1 @@
+/home/parallels/Documents/cheetah/tests/1/program/calc_e.py factorial 100 64

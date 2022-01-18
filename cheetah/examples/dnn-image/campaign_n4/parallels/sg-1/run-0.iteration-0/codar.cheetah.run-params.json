@@ -1,0 +1,11 @@
+{
+  "dnn": {
+    "file_type": "1h",
+    "version": "2",
+    "CPU_GPU": "CPU",
+    "batch_size": 4,
+    "epochs": 2,
+    "learning_rate": 0.001,
+    "model_name": "vgg16"
+  }
+}

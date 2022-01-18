@@ -1,0 +1,42 @@
+{
+    "apps_dir": "/home/parallels/Documents/cheetah/tests/1",
+    "id": "run-21.iteration-0",
+    "kill_on_partial_failure": false,
+    "launch_mode": null,
+    "machine_name": "local",
+    "node_layout": [
+        {
+            "calc_e": 32
+        }
+    ],
+    "post_process_args": [
+        "/home/parallels/Documents/cheetah/tests/1/local/parallels/all-methods-small/run-21.iteration-0/codar.cheetah.run-params.json"
+    ],
+    "post_process_script": null,
+    "post_process_stop_on_failure": false,
+    "runs": [
+        {
+            "adios_xml_file": null,
+            "after_rc_done": null,
+            "args": [
+                "pow",
+                "10000000",
+                "128"
+            ],
+            "exe": "/home/parallels/Documents/cheetah/tests/1/program/calc_e.py",
+            "hostfile": null,
+            "linked_with_sosflow": false,
+            "name": "calc_e",
+            "nprocs": 1,
+            "num_nodes": 1,
+            "runner_override": false,
+            "sched_args": null,
+            "sleep_after": 0,
+            "working_dir": "/home/parallels/Documents/cheetah/tests/1/local/parallels/all-methods-small/run-21.iteration-0"
+        }
+    ],
+    "tau_profiling": false,
+    "tau_tracing": false,
+    "total_nodes": 1,
+    "working_dir": "/home/parallels/Documents/cheetah/tests/1/local/parallels/all-methods-small/run-21.iteration-0"
+}

@@ -1,0 +1,650 @@
+[
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 1",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 10",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_1_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:4:3",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:10:26",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.2"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.5"
+    }
+  },
+  {
+    "trimming": {
+      "settings": "SE",
+      "threads": "-threads 50",
+      "input1": "/home/parallels/Documents/Trimmomatic/SRR8293759.1_2_4M.fastq.gz",
+      "outputF_1P": "Trimmed.fastq",
+      "IClip": "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:30:15",
+      "LEADING_TRAILING": "LEADING:3 TRAILING:3",
+      "SlidingWindow": "SLIDINGWINDOW:25:33",
+      "MinLength": "MINLEN:36 MAXINFO:36:0.8"
+    }
+  }
+]

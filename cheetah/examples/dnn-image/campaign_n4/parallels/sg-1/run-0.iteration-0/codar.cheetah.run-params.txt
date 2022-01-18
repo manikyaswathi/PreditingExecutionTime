@@ -1,0 +1,1 @@
+'python /home/parallels/Documents/cheetah/examples/06-dnn-image/Train.py' 1h 2 CPU 4 2 0.001 vgg16

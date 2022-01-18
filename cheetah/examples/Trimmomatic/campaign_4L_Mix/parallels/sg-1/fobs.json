@@ -1,0 +1,3890 @@
+[
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-0.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-0.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-0.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-0.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-1.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-1.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-1.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-1.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-2.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-2.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-2.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-2.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-3.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-3.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-3.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-3.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-4.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-4.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-4.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-4.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-5.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-5.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-5.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-5.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-6.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-6.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-6.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-6.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-7.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-7.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-7.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-7.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-8.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-8.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-8.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-8.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-9.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-9.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-9.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-9.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-10.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-10.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-10.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-10.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-11.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-11.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-11.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-11.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-12.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-12.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-12.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-12.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-13.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-13.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-13.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-13.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-14.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-14.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-14.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-14.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-15.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-15.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-15.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-15.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-16.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-16.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-16.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-16.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-17.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-17.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-17.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-17.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-18.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-18.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-18.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-18.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-19.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-19.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-19.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-19.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-20.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-20.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-20.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-20.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-21.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-21.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-21.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-21.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-22.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-22.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-22.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-22.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-23.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-23.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-23.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-23.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-24.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-24.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-24.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-24.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-25.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-25.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-25.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-25.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-26.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-26.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 1",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-26.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-26.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-27.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-27.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-27.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-27.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-28.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-28.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-28.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-28.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-29.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-29.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-29.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-29.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-30.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-30.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-30.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-30.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-31.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-31.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-31.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-31.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-32.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-32.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-32.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-32.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-33.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-33.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-33.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-33.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-34.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-34.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-34.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-34.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-35.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-35.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-35.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-35.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-36.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-36.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-36.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-36.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-37.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-37.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-37.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-37.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-38.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-38.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-38.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-38.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-39.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-39.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-39.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-39.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-40.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-40.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-40.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-40.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-41.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-41.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-41.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-41.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-42.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-42.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-42.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-42.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-43.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-43.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-43.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-43.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-44.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-44.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-44.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-44.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-45.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-45.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-45.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-45.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-46.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-46.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-46.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-46.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-47.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-47.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-47.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-47.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-48.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-48.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-48.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-48.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-49.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-49.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-49.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-49.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-50.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-50.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-50.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-50.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-51.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-51.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-51.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-51.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-52.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-52.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-52.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-52.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-53.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-53.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 10",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-53.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-53.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-54.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-54.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-54.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-54.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-55.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-55.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-55.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-55.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-56.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-56.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-56.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-56.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-57.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-57.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-57.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-57.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-58.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-58.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-58.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-58.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-59.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-59.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-59.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-59.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-60.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-60.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-60.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-60.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-61.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-61.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-61.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-61.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-62.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-62.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/ERR875320.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-62.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-62.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-63.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-63.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-63.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-63.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-64.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-64.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-64.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-64.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-65.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-65.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-65.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-65.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-66.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-66.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-66.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-66.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-67.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-67.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-67.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-67.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-68.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-68.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-68.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-68.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-69.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-69.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-69.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-69.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-70.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-70.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-70.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-70.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-71.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-71.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR3509077.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-71.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-71.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-72.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-72.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-72.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-72.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-73.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-73.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-73.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-73.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-74.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-74.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:4:3",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-74.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-74.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-75.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-75.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-75.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-75.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-76.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-76.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-76.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-76.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-77.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-77.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:10:26",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-77.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-77.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-78.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-78.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.2"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-78.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-78.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-79.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-79.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.5"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-79.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-79.iteration-0"
+    },
+    {
+        "apps_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic",
+        "id": "run-80.iteration-0",
+        "kill_on_partial_failure": true,
+        "launch_mode": "default",
+        "machine_name": "local",
+        "node_layout": [
+            {
+                "trimming": 32
+            }
+        ],
+        "post_process_args": [
+            "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-80.iteration-0/codar.cheetah.run-params.json"
+        ],
+        "post_process_script": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/post_script.sh",
+        "post_process_stop_on_failure": false,
+        "runs": [
+            {
+                "adios_xml_file": null,
+                "after_rc_done": null,
+                "args": [
+                    "SE",
+                    "-threads 50",
+                    "/home/parallels/Documents/Trimmomatic/SRR12514558.1_1_4L.fastq.gz",
+                    "Trimmed.fastq",
+                    "ILLUMINACLIP:/home/parallels/Documents/Trimmomatic/adapters.fasta:5:20:10",
+                    "LEADING:33 TRAILING:33",
+                    "SLIDINGWINDOW:25:33",
+                    "MINLEN:25 MAXINFO:25:0.8"
+                ],
+                "exe": "java -jar /home/parallels/Documents/Trimmomatic/trimmomatic-0.36.jar",
+                "hostfile": null,
+                "linked_with_sosflow": false,
+                "name": "trimming",
+                "nprocs": 1,
+                "num_nodes": 1,
+                "runner_override": false,
+                "sched_args": null,
+                "sleep_after": 0,
+                "timeout": 200,
+                "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-80.iteration-0"
+            }
+        ],
+        "tau_profiling": true,
+        "tau_tracing": false,
+        "total_nodes": 1,
+        "working_dir": "/home/parallels/Documents/cheetah/examples/07-trimmomatic/campaign_4L_Mix/parallels/sg-1/run-80.iteration-0"
+    }
+]

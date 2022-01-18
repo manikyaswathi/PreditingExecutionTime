@@ -1,0 +1,47 @@
+{
+    "apps_dir": "/home/parallels/Documents/cheetah/examples/06-dnn-image",
+    "id": "run-0.iteration-0",
+    "kill_on_partial_failure": true,
+    "launch_mode": "default",
+    "machine_name": "local",
+    "node_layout": [
+        {
+            "dnn": 32
+        }
+    ],
+    "post_process_args": [
+        "/home/parallels/Documents/cheetah/examples/06-dnn-image/campaign_n4/parallels/sg-1/run-0.iteration-0/codar.cheetah.run-params.json"
+    ],
+    "post_process_script": "/home/parallels/Documents/cheetah/examples/06-dnn-image/post_script.sh",
+    "post_process_stop_on_failure": false,
+    "runs": [
+        {
+            "adios_xml_file": null,
+            "after_rc_done": null,
+            "args": [
+                "1h",
+                "2",
+                "CPU",
+                "4",
+                "2",
+                "0.001",
+                "vgg16"
+            ],
+            "exe": "python /home/parallels/Documents/cheetah/examples/06-dnn-image/Train.py",
+            "hostfile": null,
+            "linked_with_sosflow": false,
+            "name": "dnn",
+            "nprocs": 1,
+            "num_nodes": 1,
+            "runner_override": false,
+            "sched_args": null,
+            "sleep_after": 0,
+            "timeout": 2000,
+            "working_dir": "/home/parallels/Documents/cheetah/examples/06-dnn-image/campaign_n4/parallels/sg-1/run-0.iteration-0"
+        }
+    ],
+    "tau_profiling": false,
+    "tau_tracing": false,
+    "total_nodes": 1,
+    "working_dir": "/home/parallels/Documents/cheetah/examples/06-dnn-image/campaign_n4/parallels/sg-1/run-0.iteration-0"
+}
