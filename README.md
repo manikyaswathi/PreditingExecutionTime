@@ -2,9 +2,11 @@
 This project explores the feasibility of capturing relevant profiling features from TAU and generate training data using workflow management tools.
 
 Features used to predict execution time:
-  The format of the features: 
+The format of the features: 
 <Feature>: <Description> [<Datatype>]
-*** Application Specific Features ***
+=============================
+Application Specific Features 
+=============================
 I. Application: Gray-Scott
 --- Category: input
 L: Size of the global matrix which is LxLxL cube [Numerical]
